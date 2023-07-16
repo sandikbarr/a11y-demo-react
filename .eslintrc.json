@@ -95,7 +95,7 @@
         "testing-library/no-dom-import": "off"
       },
       "env": {
-        "jest/globals": true // enable Jest global variables.
+        "jest/globals": true
       }
     },
     {
@@ -109,7 +109,10 @@
           "cypress/no-pause": "error"
         },
         "env": {
-          "cypress/globals": true // enable Cypress global variables.
+          "cypress/globals": true
+        },
+        "parserOptions": {
+          "project": "./cypress/tsconfig.e2e.json"
         }
       }
   ]
