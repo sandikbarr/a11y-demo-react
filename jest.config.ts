@@ -106,7 +106,7 @@ const config: Config = {
 
     // Handle static assets
     // https://jestjs.io/docs/webpack#handling-static-assets
-    '^.+\\.(jpg|jpeg|png|gif|webp|avif|svg|ttf|woff|woff2)$': `<rootDir>/__mocks__/fileMock.js`,
+    '^.+\\.(jpg|jpeg|png|gif|webp|avif|svg|ttf|woff|woff2)$': '<rootDir>/__mocks__/fileMock.js',
 
     // Handle TypeScript path aliases
     '^@/(.*)$': '<rootDir>/src/$1',
